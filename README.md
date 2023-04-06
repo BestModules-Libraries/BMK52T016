@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/BestModules-ArduinoLibraries/img/blob/main/BMK52T016_V1.0.png" width="240" height="240"> 
+<img src="https://github.com/BestModules-Libraries/img/blob/main/BMK52T016_V1.0.png" width="240" height="240"> 
 </div> 
 
 
