@@ -42,9 +42,9 @@ Version History
 &emsp;&emsp;- Change the contents of the function "setThreshold" : The sensitivity of the array is 16 bytes.  
 &emsp;&emsp;- Correction section comments.
 * **V1.0.3**  
-&emsp;&emsp;- Add function:getFWVer.
-&emsp;&emsp;- Add function:setLedMode,getLedMode,writeLed,readLed
-&emsp;&emsp;- Add applicable models:BMK52T016A
+&emsp;&emsp;- Add function:getFWVer.  
+&emsp;&emsp;- Add function:setLedMode,getLedMode,writeLed,readLed.  
+&emsp;&emsp;- Add applicable models:BMK52T016A.
 
 License Information
 -------------------
