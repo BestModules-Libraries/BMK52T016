@@ -1,3 +1,7 @@
+#######################################
+# Coloring Map For （ BMK52T016 ）
+#######################################
+
 ###################################
 #Classes and Objects(KEYWORD1)
 ###################################
@@ -6,11 +10,16 @@ BMK52T016	KEYWORD1
 ###################################
 #Methods and Functions(KEYWORD2)
 ###################################
+getFWVer	KEYWORD2
 getINT	KEYWORD2	
 readKeyValue	KEYWORD2
 getThreshold	KEYWORD2
 setThreshold	KEYWORD2
 setAllThresholdLevel	KEYWORD2
+setLedMode	KEYWORD2
+getLedMode	KEYWORD2
+writeLed	KEYWORD2
+readLed	KEYWORD2
 ###################################
 # Constants (LITERAL1)
 ###################################
@@ -19,3 +28,4 @@ FAIL	LITERAL1
 BMK52T016_IICADDR	LITERAL1
 REQUESTLEN1	LITERAL1
 REQUESTLEN16	LITERAL1
+REQUESTLEN18	LITERAL1

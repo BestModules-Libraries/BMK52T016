@@ -8,6 +8,15 @@ BMK52T016
 
 The Best Modules BMK52T016 is a shield board for 16-key capacitive touch function, which uses the I2C communication method. This document provides the description of the BMK52T016 Arduino Lib functions and how to install the Arduino Lib. The example demonstrates the function of obtaining the touch key value.
 
+#### Applicable types:
+<div align=center>
+
+|Paet No.   |Description                              |
+|:---------:|:---------------------------------------:|
+|BMK52T016 |16-Key Capacitive Touch Shield|
+|BMK52T016A|16-Key Capacitive Touch Shield|
+
+</div> 
 
 This library can be installed via the Arduino Library manager. Search for **BMK52T016**. 
 
@@ -32,6 +41,10 @@ Version History
 * **V1.0.2**  
 &emsp;&emsp;- Change the contents of the function "setThreshold" : The sensitivity of the array is 16 bytes.  
 &emsp;&emsp;- Correction section comments.
+* **V1.0.3**  
+&emsp;&emsp;- Add function:getFWVer.
+&emsp;&emsp;- Add function:setLedMode,getLedMode,writeLed,readLed
+&emsp;&emsp;- Add applicable models:BMK52T016A
 
 License Information
 -------------------
@@ -40,8 +53,8 @@ This product is _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
-If you have any questions or concerns on licensing, please contact technical support on our BESTMODULES Email:service@bestmodulescorp.com
+If you have any questions or concerns on licensing, please contact technical support on our BEST MODULES CORP.  Email:service@bestmodulescorp.com
 
 Distributed as-is; no warranty is given.
 
-BESTMODULES
+BEST MODULES CORP. 

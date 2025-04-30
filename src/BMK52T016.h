@@ -1,8 +1,8 @@
 /*****************************************************************
 File:        BMK52T016.h
-Author:      BESTMODULES
+Author:      BEST MODULES CORP.
 Description: Define classes and required variables
-Version:     V1.0.2   -- 2024-05-07
+Version:     V1.0.3   -- 2025-04-30
 ******************************************************************/
 #ifndef _BMK52T016_H_
 #define _BMK52T016_H_
@@ -23,11 +23,17 @@ class BMK52T016
     public:
     BMK52T016(uint8_t intPin,TwoWire *theWire = &Wire);
     void begin(uint8_t i2c_addr = BMK52T016_IICADDR);
+    uint16_t getFWVer();
     uint8_t getINT();
     uint16_t readKeyValue();
     void getThreshold(uint8_t buff[]);
     int setThreshold(uint8_t buff[]);
     int setAllThresholdLevel(uint8_t level = 2);
+    
+    void setLedMode(uint8_t mode);
+    uint8_t getLedMode();
+    void writeLed(uint16_t data);
+    uint16_t readLed();
     
     private:
     void writeBytes(uint8_t wbuf[], uint8_t wlen);
